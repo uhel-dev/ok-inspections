@@ -1,0 +1,924 @@
+{
+  "LOCATIONS": [
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Brixton",
+      "location": "Brixton",
+      "coords": {
+        "lat": 51.4612794,
+        "lng": -0.1156148
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Hackney",
+      "location": "Hackney",
+      "coords": {
+        "lat": 51.5436387,
+        "lng": -0.0553621
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Camden",
+      "location": "Camden",
+      "coords": {
+        "lat": 51.5390261,
+        "lng": -0.1425516
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Acton",
+      "location": "Acton",
+      "coords": {
+        "lat": 51.50837199999999,
+        "lng": -0.27444
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Chiswick",
+      "location": "Chiswick",
+      "coords": {
+        "lat": 51.4876272,
+        "lng": -0.2671732
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Ealing",
+      "location": "Ealing",
+      "coords": {
+        "lat": 51.5132537,
+        "lng": -0.3043136
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Fulham",
+      "location": "Fulham",
+      "coords": {
+        "lat": 51.4773433,
+        "lng": -0.2016817
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Hanwell",
+      "location": "Hanwell",
+      "coords": {
+        "lat": 51.5066369,
+        "lng": -0.3383229
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Kensington",
+      "location": "Kensington",
+      "coords": {
+        "lat": 51.5010095,
+        "lng": -0.1932794
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Kew",
+      "location": "Kew",
+      "coords": {
+        "lat": 51.475251,
+        "lng": -0.2848908
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Maida",
+      "location": "Maida",
+      "coords": {
+        "lat": 51.5299092,
+        "lng": -0.1860307
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Northolt",
+      "location": "Northolt",
+      "coords": {
+        "lat": 51.546615,
+        "lng": -0.373103
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Notting",
+      "location": "Notting",
+      "coords": {
+        "lat": 51.5160125,
+        "lng": -0.2090148
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Paddington",
+      "location": "Paddington",
+      "coords": {
+        "lat": 51.515973,
+        "lng": -0.174943
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Perivale",
+      "location": "Perivale",
+      "coords": {
+        "lat": 51.532222,
+        "lng": -0.324477
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Shepherd",
+      "location": "Shepherd",
+      "coords": {
+        "lat": 51.5051913,
+        "lng": -0.22469
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-White",
+      "location": "White",
+      "coords": {
+        "lat": 51.5072178,
+        "lng": -0.1275862
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Brentford",
+      "location": "Brentford",
+      "coords": {
+        "lat": 51.4835374,
+        "lng": -0.3063676
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Gunnersbury",
+      "location": "Gunnersbury",
+      "coords": {
+        "lat": 51.49335199999999,
+        "lng": -0.278887
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Hayes",
+      "location": "Hayes",
+      "coords": {
+        "lat": 51.516758,
+        "lng": -0.436786
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Hounslow",
+      "location": "Hounslow",
+      "coords": {
+        "lat": 51.46092179999999,
+        "lng": -0.373149
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Isleworth",
+      "location": "Isleworth",
+      "coords": {
+        "lat": 51.467121,
+        "lng": -0.329003
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Iver",
+      "location": "Iver",
+      "coords": {
+        "lat": 51.5201939,
+        "lng": -0.509572
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Twickenham",
+      "location": "Twickenham",
+      "coords": {
+        "lat": 51.4453043,
+        "lng": -0.3375429
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Uxbridge",
+      "location": "Uxbridge",
+      "coords": {
+        "lat": 51.5485,
+        "lng": -0.479611
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Bayswater",
+      "location": "Bayswater",
+      "coords": {
+        "lat": 51.5135456,
+        "lng": -0.1865659
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Belgravia",
+      "location": "Belgravia",
+      "coords": {
+        "lat": 51.4982272,
+        "lng": -0.1535489
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Chelsea",
+      "location": "Chelsea",
+      "coords": {
+        "lat": 51.4869429,
+        "lng": -0.170037
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Holland",
+      "location": "Holland",
+      "coords": {
+        "lat": 51.5032252,
+        "lng": -0.2036668
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Marylebone",
+      "location": "Marylebone",
+      "coords": {
+        "lat": 51.5188746,
+        "lng": -0.1498955
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Mayfair",
+      "location": "Mayfair",
+      "coords": {
+        "lat": 51.5116269,
+        "lng": -0.147806
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Pimlico",
+      "location": "Pimlico",
+      "coords": {
+        "lat": 51.490744,
+        "lng": -0.1403619
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-South",
+      "location": "South",
+      "coords": {
+        "lat": 51.3888898,
+        "lng": -0.1403317
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Westminster",
+      "location": "Westminster",
+      "coords": {
+        "lat": 51.4974948,
+        "lng": -0.1356583
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Barnes",
+      "location": "Barnes",
+      "coords": {
+        "lat": 51.4752941,
+        "lng": -0.2392052
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Battersea",
+      "location": "Battersea",
+      "coords": {
+        "lat": 51.47220069999999,
+        "lng": -0.165547
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Earlsfield",
+      "location": "Earlsfield",
+      "coords": {
+        "lat": 51.4399939,
+        "lng": -0.1890111
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Kingston",
+      "location": "Kingston",
+      "coords": {
+        "lat": 51.41233,
+        "lng": -0.300689
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Mortlake",
+      "location": "Mortlake",
+      "coords": {
+        "lat": 51.4687363,
+        "lng": -0.2627417
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Putney",
+      "location": "Putney",
+      "coords": {
+        "lat": 51.4596431,
+        "lng": -0.2141257
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Roehampton",
+      "location": "Roehampton",
+      "coords": {
+        "lat": 51.4484339,
+        "lng": -0.2397592
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Southfields",
+      "location": "Southfields",
+      "coords": {
+        "lat": 51.44522,
+        "lng": -0.2037324
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Wandsworth",
+      "location": "Wandsworth",
+      "coords": {
+        "lat": 51.45837299999999,
+        "lng": -0.1891356
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Wimbledon",
+      "location": "Wimbledon",
+      "coords": {
+        "lat": 51.41833889999999,
+        "lng": -0.2206288
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Ashford",
+      "location": "Ashford",
+      "coords": {
+        "lat": 51.5570009,
+        "lng": -0.218113
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Stanwell",
+      "location": "Stanwell",
+      "coords": {
+        "lat": 51.457942,
+        "lng": -0.47427
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Staines",
+      "location": "Staines",
+      "coords": {
+        "lat": 51.43148,
+        "lng": -0.515525
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Egham",
+      "location": "Egham",
+      "coords": {
+        "lat": 51.5183293,
+        "lng": 0.0300166
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Virginia",
+      "location": "Virginia",
+      "coords": {
+        "lat": 51.4966392,
+        "lng": -0.17218
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Weybridge",
+      "location": "Weybridge",
+      "coords": {
+        "lat": 51.4865519,
+        "lng": -0.0637626
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Shepperton",
+      "location": "Shepperton",
+      "coords": {
+        "lat": 51.5379913,
+        "lng": -0.0893783
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Sunbury",
+      "location": "Sunbury",
+      "coords": {
+        "lat": 51.4920931,
+        "lng": 0.057659
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Walton",
+      "location": "Walton",
+      "coords": {
+        "lat": 51.4958228,
+        "lng": -0.1652466
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Windsor",
+      "location": "Windsor",
+      "coords": {
+        "lat": 51.48034209999999,
+        "lng": -0.6157136999999999
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Maidenhead",
+      "location": "Maidenhead",
+      "coords": {
+        "lat": 51.571846,
+        "lng": -0.2563241
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Bracknell",
+      "location": "Bracknell",
+      "coords": {
+        "lat": 51.5990426,
+        "lng": -0.1060685
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Wokingham",
+      "location": "Wokingham",
+      "coords": {
+        "lat": 51.4846582,
+        "lng": -0.1217597
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Reading",
+      "location": "Reading",
+      "coords": {
+        "lat": 51.45512009999999,
+        "lng": -0.9787475
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-High",
+      "location": "High",
+      "coords": {
+        "lat": 51.5072178,
+        "lng": -0.1275862
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Amersham",
+      "location": "Amersham",
+      "coords": {
+        "lat": 51.6106434,
+        "lng": -0.0799942
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Beaconsfield",
+      "location": "Beaconsfield",
+      "coords": {
+        "lat": 51.4920962,
+        "lng": -0.1186856
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Hillingdon",
+      "location": "Hillingdon",
+      "coords": {
+        "lat": 51.5351832,
+        "lng": -0.4481378
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Ruislip",
+      "location": "Ruislip",
+      "coords": {
+        "lat": 51.5758719,
+        "lng": -0.421236
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Northwood",
+      "location": "Northwood",
+      "coords": {
+        "lat": 51.61028899999999,
+        "lng": -0.428278
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Pinner",
+      "location": "Pinner",
+      "coords": {
+        "lat": 51.595172,
+        "lng": -0.378002
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Harrow",
+      "location": "Harrow",
+      "coords": {
+        "lat": 51.580559,
+        "lng": -0.341995
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Greenford",
+      "location": "Greenford",
+      "coords": {
+        "lat": 51.531797,
+        "lng": -0.34622
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Southall",
+      "location": "Southall",
+      "coords": {
+        "lat": 51.511073,
+        "lng": -0.377232
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Richmond",
+      "location": "Richmond",
+      "coords": {
+        "lat": 51.46131099999999,
+        "lng": -0.303742
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Hammersmith",
+      "location": "Hammersmith",
+      "coords": {
+        "lat": 51.491187,
+        "lng": -0.223731
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Farnborough",
+      "location": "Farnborough",
+      "coords": {
+        "lat": 51.36141749999999,
+        "lng": 0.06566469999999999
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Frimley",
+      "location": "Frimley",
+      "coords": {
+        "lat": 51.5227196,
+        "lng": -0.0464732
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Camberley",
+      "location": "Camberley",
+      "coords": {
+        "lat": 51.409345,
+        "lng": -0.2368708
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Sandhurst",
+      "location": "Sandhurst",
+      "coords": {
+        "lat": 51.4421074,
+        "lng": -0.0031337
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Yateley",
+      "location": "Yateley",
+      "coords": {
+        "lat": 51.4922609,
+        "lng": 0.0427364
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Fleet",
+      "location": "Fleet",
+      "coords": {
+        "lat": 51.5108502,
+        "lng": -0.1039077
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Aldershot",
+      "location": "Aldershot",
+      "coords": {
+        "lat": 51.5404918,
+        "lng": -0.199731
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Ash",
+      "location": "Ash",
+      "coords": {
+        "lat": 51.5072178,
+        "lng": -0.1275862
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Woking",
+      "location": "Woking",
+      "coords": {
+        "lat": 51.4646524,
+        "lng": -0.2477188
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Knaphill",
+      "location": "Knaphill",
+      "coords": {
+        "lat": 51.320041,
+        "lng": -0.6138439
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Chobham",
+      "location": "Chobham",
+      "coords": {
+        "lat": 51.5495875,
+        "lng": 0.001558
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Ottershaw",
+      "location": "Ottershaw",
+      "coords": {
+        "lat": 51.3633979,
+        "lng": -0.5303019999999999
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Cobham",
+      "location": "Cobham",
+      "coords": {
+        "lat": 51.4543366,
+        "lng": -0.1671038
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Esher",
+      "location": "Esher",
+      "coords": {
+        "lat": 51.369487,
+        "lng": -0.365927
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Guildford",
+      "location": "Guildford",
+      "coords": {
+        "lat": 51.5233424,
+        "lng": -0.1203615
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Godalming",
+      "location": "Godalming",
+      "coords": {
+        "lat": 51.515969,
+        "lng": -0.0164707
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Cranleigh",
+      "location": "Cranleigh",
+      "coords": {
+        "lat": 51.5328557,
+        "lng": -0.1353723
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Dorking",
+      "location": "Dorking",
+      "coords": {
+        "lat": 51.4831272,
+        "lng": -0.0321377
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Leatherhead",
+      "location": "Leatherhead",
+      "coords": {
+        "lat": 51.5692868,
+        "lng": -0.0750242
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Epsom",
+      "location": "Epsom",
+      "coords": {
+        "lat": 51.5743452,
+        "lng": -0.0053186
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Banstead",
+      "location": "Banstead",
+      "coords": {
+        "lat": 51.3221909,
+        "lng": -0.205046
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Sutton",
+      "location": "Sutton",
+      "coords": {
+        "lat": 51.3614279,
+        "lng": -0.193961
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Cheam",
+      "location": "Cheam",
+      "coords": {
+        "lat": 51.3619271,
+        "lng": -0.2189255
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Ewell",
+      "location": "Ewell",
+      "coords": {
+        "lat": 51.3896689,
+        "lng": -0.2978756
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Worcester",
+      "location": "Worcester",
+      "coords": {
+        "lat": 51.6271665,
+        "lng": -0.2474848
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-West-Drayton",
+      "location": "West-Drayton",
+      "coords": {
+        "lat": 51.502985,
+        "lng": -0.4654099999999999
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Yeading",
+      "location": "Yeading",
+      "coords": {
+        "lat": 51.52291,
+        "lng": -0.3880247000000001
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Ickenham",
+      "location": "Ickenham",
+      "coords": {
+        "lat": 51.563966,
+        "lng": -0.442299
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-New-Maiden",
+      "location": "New-Maiden",
+      "coords": {
+        "lat": 51.40066299999999,
+        "lng": -0.259263
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Surbiton",
+      "location": "Surbiton",
+      "coords": {
+        "lat": 51.39400999999999,
+        "lng": -0.302662
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Hersham",
+      "location": "Hersham",
+      "coords": {
+        "lat": 51.4482314,
+        "lng": -0.2401716
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Addlestone",
+      "location": "Addlestone",
+      "coords": {
+        "lat": 51.369813,
+        "lng": -0.488641
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Cheesy",
+      "location": "Cheesy",
+      "coords": {
+        "lat": 51.5441958,
+        "lng": -0.0071044
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Englefield-Green",
+      "location": "Englefield-Green",
+      "coords": {
+        "lat": 51.5072178,
+        "lng": -0.1275862
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Old-Windsor",
+      "location": "Old-Windsor",
+      "coords": {
+        "lat": 51.5072178,
+        "lng": -0.1275862
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Wembley",
+      "location": "Wembley",
+      "coords": {
+        "lat": 51.550501,
+        "lng": -0.3048409
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Harefield",
+      "location": "Harefield",
+      "coords": {
+        "lat": 51.60314,
+        "lng": -0.484045
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Rickmansworth",
+      "location": "Rickmansworth",
+      "coords": {
+        "lat": 51.638763,
+        "lng": -0.4741309999999999
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Slough",
+      "location": "Slough",
+      "coords": {
+        "lat": 51.5813912,
+        "lng": -0.2659813
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Heathrow",
+      "location": "Heathrow",
+      "coords": {
+        "lat": 51.4700223,
+        "lng": -0.4542955
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Feltham",
+      "location": "Feltham",
+      "coords": {
+        "lat": 51.44414800000001,
+        "lng": -0.410772
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Sunbury-on-Thames",
+      "location": "Sunbury-on-Thames",
+      "coords": {
+        "lat": 51.4191935,
+        "lng": -0.4191503
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Staines-upon-Thames",
+      "location": "Staines-upon-Thames",
+      "coords": {
+        "lat": 51.43148,
+        "lng": -0.515525
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Teddington",
+      "location": "Teddington",
+      "coords": {
+        "lat": 51.4268694,
+        "lng": -0.3338681
+      }
+    },
+    {
+      "tyreServicesInLocationUrl": "tyre-services-in-Kingston-upon-Thames",
+      "location": "Kingston-upon-Thames",
+      "coords": {
+        "lat": 51.41233,
+        "lng": -0.300689
+      }
+    }
+  ]
+}

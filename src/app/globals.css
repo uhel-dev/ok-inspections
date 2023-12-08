@@ -1,0 +1,360 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .gradient-overlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom, white, rgba(255,255,255,0));
+    z-index: 90;
+  }
+}
+
+@font-face {
+  font-family: 'UKRegPlatesFont';
+  src: url('/fonts/CharlesWright-Bold.woff2') format('woff2'),
+  url('/fonts/CharlesWright-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  font-size: x-large;
+}
+
+@font-face {
+  font-family: 'UKRegPlatesFontOblique';
+  src: url('/fonts/CharlesWright-Oblique.woff2') format('woff2'),
+  url('/fonts/CharlesWright-Oblique.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  font-size: x-large;
+}
+
+@font-face {
+  font-family: 'UKRegPlatesFontBoldCaps';
+  src: url('/fonts/CharlesWrightBoldCaps.woff2') format('woff2'),
+  url('/fonts/CharlesWrightBoldCaps.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  font-size: x-large;
+}
+
+@font-face {
+  font-family: 'UKRegPlatesFontRegular';
+  src: url('/fonts/CharlesWright-Regular.woff2') format('woff2'),
+  url('/fonts/CharlesWright-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  font-size: x-large;
+}
+
+@font-face {
+  font-family: 'UKRegPlatesFontMedium';
+  src: url('/fonts/CharlesWrightMedium.woff2') format('woff2'),
+  url('/fonts/CharlesWrightMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  font-size: x-large;
+}
+
+@font-face {
+  font-family: 'UKRegPlatesFontMotorcycle';
+  src: url('/fonts/CharlesWrightMotorcycle.woff2') format('woff2'),
+  url('/fonts/CharlesWrightMotorcycle.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  font-size: x-large;
+}
+
+@font-face {
+  font-family: 'AntonFont';
+  src: url('/fonts/Anton-Regular.woff2') format('woff2'),
+  url('/fonts/Anton-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  font-size: x-large;
+}
+
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+
+}
+
+
+
+
+
+
+
+
+
+/*Mega MENU */
+
+
+.mega-menu {
+  display: none;
+  left: 0;
+  position: absolute;
+  text-align: left;
+  width: 100%;
+}
+
+
+
+/* #hoverable Class Styles */
+.hoverable {
+  position: static;
+}
+
+.hoverable > a:after {
+  content: "\25BC";
+  font-size: 10px;
+  padding-left: 6px;
+  position: relative;
+  top: -1px;
+}
+
+.hoverable:hover .mega-menu {
+  display: block;
+}
+
+
+/* #toggle Class Styles */
+
+.toggleable > label:after {
+  content: "\25BC";
+  font-size: 10px;
+  padding-left: 6px;
+  position: relative;
+  top: -1px;
+}
+
+.toggle-input {
+  display: none;
+}
+.toggle-input:not(checked) ~ .mega-menu {
+  display: none;
+}
+
+.toggle-input:checked ~ .mega-menu {
+  display: block;
+}
+
+.toggle-input:checked + label {
+  color: #000000;
+  background: rgb(255, 243, 0); /*@apply bg-teal-700 */
+}
+
+.toggle-input:checked ~ label:after {
+  content: "\25B2";
+  font-size: 10px;
+  padding-left: 6px;
+  position: relative;
+  top: -1px;
+}
+
+
+
+.kdev-button-cta-yellow-black {
+  @apply bg-24h-yellow p-4 text-lg uppercase font-semibold font-uk-reg-plates text-black
+}
+
+.kdev-button-cta-yellow-black-small {
+  @apply bg-24h-yellow p-2 text-base font-uk-reg-plates text-black
+}
+
+
+.kdev-button-cta-yellow-black:hover {
+  @apply bg-black p-4 text-lg uppercase font-semibold font-uk-reg-plates text-white cursor-pointer
+}
+
+.kdev-button-cta-black-yellow {
+  @apply bg-black p-4 text-base md:text-lg font-uk-reg-plates text-white border-2 border-24h-yellow
+}
+
+.kdev-button-cta-black-yellow:hover {
+  @apply bg-24h-yellow p-4 font-uk-reg-plates text-black cursor-pointer border-2 border-black
+}
+
+.kdev-h1 {
+  @apply text-4xl xl:text-6xl font-semibold font-uk-reg-plates
+}
+
+.kdev-h2 {
+  @apply text-2xl lg:text-5xl font-semibold font-uk-reg-plates
+}
+
+.kdev-h3 {
+  @apply text-xl lg:text-3xl font-semibold font-uk-reg-plates
+}
+
+
+.kdev-h4 {
+  @apply text-lg lg:text-2xl font-semibold font-uk-reg-plates
+}
+
+.kdev-h5 {
+  @apply text-lg lg:text-xl font-semibold font-uk-reg-plates
+}
+
+.kdev-subheading {
+  @apply text-base lg:text-xl font-light font-uk-reg-plates
+}
+
+.kdev-text {
+  @apply text-lg font-uk-reg-plates-regular
+}
+
+.text-outline {
+  color: transparent;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+
+/* Set the initial state of the submenu to be hidden with max-height 0 */
+.submenu {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+  background-color: black; /* or any desired color */
+}
+
+/* When hovering, the max-height is increased to a value that can contain the submenu */
+.group:hover .submenu {
+  max-height: 500px; /* Set this to a value that can contain all submenu items when expanded */
+}
+
+.hoverable .submenu {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s ease-out;
+  background-color: black;
+}
+
+.hoverable:hover .submenu {
+  height: auto; /* Adjust this value based on the natural height of the submenu */
+}
+
+
+.kdev-section {
+  @apply xl:w-4/5 mx-auto p-4 my-4
+}
+
+.kdev-section-no-margin {
+  @apply xl:w-4/5 mx-auto px-4 py-2
+}
+
+.kdev-navbar-parent-element {
+  @apply relative block py-4 xl:py-4 px-3 lg:px-4 text-sm lg:text-base xl:text-lg  font-bold hover:cursor-pointer hover:underline
+}
+
+.kdev-navbar-parent-element-with-y-char {
+  @apply leading-[1.1em];
+}
+
+
+.usp-grid-home-h {
+  @apply text-xl lg:text-2xl xl:text-4xl font-uk-reg-plates
+}
+
+
+.kb {
+  @apply text-black text-[0.7em] md:text-base lg:text-lg font-uk-reg-plates-bold-caps flex justify-center items-center relative z-10 p-2 h-[40px]
+}
+
+.kb > div {
+  position: relative;
+  z-index: 15;
+  width: 100%/* This ensures that the text is above the ::after pseudo-element */
+}
+
+@media screen and (min-width:768px) {
+  .kb::after {
+    position: absolute;
+    content: "";
+    right: -15px;
+    top: 0;
+    height: inherit;
+    width: 30px;
+    background-color: white;
+    transform: skewX(-29deg);
+    z-index: 5; /* This ensures that the ::after is below the .kb content */
+    /*margin-top: -1px;*/
+  }
+
+  .kb::before {
+    position: absolute;
+    content: "";
+    left: -15px;
+    top: 0;
+    height: inherit;
+    width: 30px;
+    background-color: white;
+    transform: skewX(-29deg);
+    z-index: 5; /* This ensures that the ::after is below the .kb content */
+    /*margin-top: -1px;*/
+  }
+}
+
+
+.user-info-navbar {
+  @apply flex
+}
+
+.user-info-navbar::before {
+  position: absolute;
+  content: "";
+  left: -20px;
+  top: 0;
+  height: 32px;
+  width: 30px;
+  @apply bg-24h-yellow;
+  transform: skewX(29deg);
+  z-index: 5; /* This ensures that the ::after is below the .kb content */
+  /*margin-top: -1px;*/
+}
+
+
+.business-info-top-section::after {
+  position: absolute;
+  content: "";
+  right: -80px;
+  top: 0;
+  height: 100%;
+  width: 30%;
+  @apply bg-24h-yellow;
+  transform: skewX(29deg);
+  z-index: 5; /* This ensures that the ::after is below the .kb content */
+  /*margin-top: -1px;*/
+}
+
+
+
+
+.b-g {
+  @apply rounded-xl border-2 border-slate-400/10 bg-neutral-100 p-4
+}

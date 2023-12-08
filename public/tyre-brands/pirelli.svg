@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="800.0003" height="208.598" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <path d="M-578.0517-71.9728H223.766v-208.473h-801.8177v208.473z" style="fill:#fee102;fill-opacity:1;fill-rule:nonzero;stroke:none" id="reuse-0"/>
+  </defs>
+  <use style="fill:#fee102;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="matrix(.99758 0 0 1 576.714 280.5082)" xlink:href="#reuse-0"/>
+  <use style="fill:none;stroke:#fee102;stroke-width:.11263648;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" transform="matrix(.99758 0 0 1 576.714 280.5082)" xlink:href="#reuse-0"/>
+  <path d="M-333.6334-104.9042h41.5265v-23.0187h10.191l12.7252 23.0187h49.6025l-18.3554-24.922c20.8003-10.012 19.0868-51.3853-12.636-50.1916h-83.0538v75.1136" style="fill:#ed1c24;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="matrix(.99758 0 0 1 576.714 280.5082)"/>
+  <path d="M-496.0516-104.9042h72.0347v-86.7041h552.5354c36.1377-3.8144 28.304-52.8163 0-51.85h-624.5701v138.554" style="fill:#ed1c24;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="matrix(.99758 0 0 1 576.714 280.5082)"/>
+  <path d="M-424.0169-224.02v12.8717h474.533c6.8382-2.3874 6.355-11.2023 0-12.8717-.9663-.234-474.533 0-474.533 0" style="fill:#fee102;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="matrix(.99758 0 0 1 576.714 280.5082)"/>
+  <path d="M-399.3805-104.9042h41.2707v-75.1144h-41.2707v75.1144z" style="fill:#ed1c24;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="matrix(.99758 0 0 1 576.714 280.5082)"/>
+  <path d="M-292.1069-146.9913v-13.9622h16.063c14.9434 0 15.185 13.9622.249 13.9622h-16.312" style="fill:#fee102;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="matrix(.99758 0 0 1 576.714 280.5082)"/>
+  <path d="M-201.571-180.0178v75.1136h90.1528v-18.9769h-47.8974v-10.0011h43.0068v-18.4979h-42.7427v-8.5734h44.4562v-19.0643h-86.9756M-89.3808-180.0178v75.1136h81.3253v-19.1968h-38.8326v-55.9168h-42.4927M2.5754-180.0178v75.1136h81.312v-19.1968H45.069v-55.9168H2.5754M96.1285-104.9042h41.2782v-75.1144H96.1285v75.1144z" style="fill:#ed1c24;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="matrix(.99758 0 0 1 576.714 280.5082)"/>
+</svg>
