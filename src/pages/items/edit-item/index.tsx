@@ -9,7 +9,8 @@ export default function EditItem() {
 
   const router = useRouter();
   const [uniqueIdentifier, setUniqueIdentifier] = React.useState('');
-  const handleUniqueIdentifierChange = (event) => {
+
+  const handleUniqueIdentifierChange = (event: any) => {
     setUniqueIdentifier(event.target.value);
   }
 

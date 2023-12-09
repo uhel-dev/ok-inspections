@@ -84,7 +84,7 @@ export default function CreateItem() {
           }
         }
       `, { uniqueIdentifier: newInspectionForm.uniqueId, content: newInspectionForm.content })
-      .then(async data => {
+      .then(async (data: any) => {
         const itemId = data.createItem.id;
         return await hygraphClient.request(
           gql`
@@ -95,7 +95,7 @@ export default function CreateItem() {
         }
       `, { id: itemId });
       })
-      .then(publishData => {
+      .then((publishData: any) => {
         console.log(publishData);
         router.push(`/items/view-item/${qrUniqueId}`);
       })
@@ -103,7 +103,7 @@ export default function CreateItem() {
 
   }
 
-  const updateFormName = (formName) => {
+  const updateFormName = (formName: any) => {
     setFormName(formName);
   }
 
@@ -142,7 +142,7 @@ export default function CreateItem() {
       </section>
 
       <section className={`kdev-section`}>
-        <AddAdditionalInformationItem bulletPoints={bulletPoints} updateBulletPoints={(newValue) => setBulletPoints(newValue)}/>
+        <AddAdditionalInformationItem bulletPoints={bulletPoints} updateBulletPoints={(newValue: any) => setBulletPoints(newValue)}/>
       </section>
 
       <section className={`kdev-section`}>

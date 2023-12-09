@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 
 
-export default function AddChecklistItems({ checklistItems, setChecklistItems }) {
+export default function AddChecklistItems({ checklistItems, setChecklistItems }: any) {
 
   const addChecklistItem = () => {
     setChecklistItems([...checklistItems, { name: '' }]);
   };
 
-  const updateItemName = (index, newName) => {
+  const updateItemName = (index: any, newName: any) => {
     const newItems = [...checklistItems];
     newItems[index].name = newName;
     setChecklistItems(newItems);
@@ -17,7 +17,7 @@ export default function AddChecklistItems({ checklistItems, setChecklistItems })
     <div className={`w-full`}>
       <h2 className="text-2xl font-bold mb-4">Define pre-use inspection form</h2>
       <form className={`w-full`}>
-        {checklistItems.map((item, index) => (
+        {checklistItems.map((item: any, index: number) => (
           <div key={index} className="mb-2 w-full">
             <input
               type="text"

@@ -6,6 +6,7 @@ import { Breadcrumbs } from "./Breadcrumbs";
 import MobileNavbar from "./MobileNavbar";
 import { Navbar } from "./Navbar";
 import { useScrollPosition } from "@/hooks/useScrollPosition";
+import KDevNavigation from "./KDevNavigation";
 
 interface LayoutProps {
   children: ReactNode;
@@ -17,29 +18,6 @@ interface LayoutProps {
 
 
 const PageLayout: React.FC<LayoutProps> = ({ children, jsonLD, metadata, showBreadcrumbs = true, showErrorBreadcrumb = false}) => {
-  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
-  const drawerRef = useRef<any>(null);
-
-  const headerWidth = "w-full xl:w-4/5"
-
-  useEffect(() => {
-    const handleOutsideClick = (event:  any) => {
-      if (!drawerRef.current.contains(event.target)) {
-        if(isDrawerOpen) setIsDrawerOpen(false);
-      }
-    };
-
-    if (isDrawerOpen) {
-      document.addEventListener('mousedown', handleOutsideClick);
-    }
-
-    return () => {
-      document.removeEventListener('mousedown', handleOutsideClick);
-    };
-
-  }, [isDrawerOpen]);
-
-
   return (
     <>
       {/* TODO: need to replace this with ok-inspection*/}
@@ -69,12 +47,7 @@ const PageLayout: React.FC<LayoutProps> = ({ children, jsonLD, metadata, showBre
       )}
 
       <main className={`mx-auto flex flex-col justify-between min-h-screen`}>
-        <div className={`flex flex-col md:hidden justify-center`}>
-          <MobileNavbar headerWidth={headerWidth}/>
-        </div>
-        <div className={`hidden md:flex flex-col justify-center`}>
-          <Navbar headerWidth={headerWidth}/>
-        </div>
+         <KDevNavigation/>
         { showBreadcrumbs && !showErrorBreadcrumb &&(
           <div className={`flex justify-center items-center`}>
             <Breadcrumbs width={`w-4/5`} />

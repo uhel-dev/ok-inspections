@@ -108,7 +108,7 @@ export default function EditItem({id}: any) {
       </section>
 
       <section className={`kdev-section`}>
-        <AddAdditionalInformationItem bulletPoints={bulletPoints} updateBulletPoints={(newValue) => setBulletPoints(newValue)}/>
+        <AddAdditionalInformationItem bulletPoints={bulletPoints} updateBulletPoints={(newValue: any) => setBulletPoints(newValue)}/>
       </section>
 
       <section className={`kdev-section`}>

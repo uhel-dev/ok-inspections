@@ -9,7 +9,7 @@ export default function ViewItem() {
   const [uniqueIdentifier, setUniqueIdentifier] = React.useState('');
   const router = useRouter();
 
-  const handleUniqueIdentifierChange = (event) => {
+  const handleUniqueIdentifierChange = (event: any) => {
     setUniqueIdentifier(event.target.value);
   }
 

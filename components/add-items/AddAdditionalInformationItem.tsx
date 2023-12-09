@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
-export default function AddAdditionalInformationItem({ bulletPoints, updateBulletPoints }) {
+export default function AddAdditionalInformationItem({ bulletPoints, updateBulletPoints }: any) {
 
-  const handleUpdate = (event) => {
+  const handleUpdate = (event: any) => {
     updateBulletPoints(event.target.value);
   };
 

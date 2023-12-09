@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import SignatureCanvas from 'react-signature-canvas';
 
 export default function SignatureComponent() {
-  const sigCanvas = useRef({});
+  const sigCanvas: any = useRef({});
 
   const clear = () => {
     sigCanvas.current.clear();

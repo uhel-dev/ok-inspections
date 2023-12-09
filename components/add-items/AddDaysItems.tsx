@@ -9,8 +9,8 @@ const DAYS = [
   "Sunday",
 ];
 
-export default function AddDaysItems({days, setDays}) {
-  const toggleDay = (day) => {
+export default function AddDaysItems({days, setDays}: any) {
+  const toggleDay = (day: any) => {
     const currentState = days[day];
     let newState;
 
@@ -22,7 +22,7 @@ export default function AddDaysItems({days, setDays}) {
 
   };
 
-  const getColor = (state) => {
+  const getColor = (state: any) => {
     switch (state) {
       case true:
         return "bg-green-500";

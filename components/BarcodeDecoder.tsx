@@ -4,7 +4,7 @@ export default function BarcodeDecoder() {
   const [file, setFile] = useState(null);
   const [decodedData, setDecodedData] = useState('');
 
-  const handleFileChange = (event) => {
+  const handleFileChange = (event: any) => {
     setFile(event.target.files[0]);
   };
 
