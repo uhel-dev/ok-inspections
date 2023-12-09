@@ -104,7 +104,7 @@ export default function Tyreservicesinlocationurl({ tyreServicesInLocationUrl, s
                     <div>
                         <div className={`grid gap-2`}>
                             <h3 className={`font-uk-reg-plates text-3xl lg:text-4xl pb-4`}>
-                                <strong>{serviceLocationIn.serviceLocationName} Tyres </strong>| <span className={`font-uk-reg-plates-regular`}>Search Tyres By Brand, Vehicle Make, Registration or Tyre Size</span>
+                                <strong>{serviceLocationIn.serviceLocationName} Tyres </strong>| <span className={`font-uk-reg-plates`}>Search Tyres By Brand, Vehicle Make, Registration or Tyre Size</span>
                             </h3>
                             <p>
                                 Looking for top-quality <strong>tyres in {serviceLocationIn.serviceLocationName}</strong>? At 24h Tyres, we offer a wide range of options to suit your specific needs. Whether {`you're`} searching for reliable brands,
@@ -130,9 +130,9 @@ export default function Tyreservicesinlocationurl({ tyreServicesInLocationUrl, s
 
                         <div className={`grid lg:grid-cols-2 gap-2 py-8`}>
                             <div className={`grid gap-4 bg-gradient-radial from-black to-gray-700 p-4 rounded-xl`}>
-                                <h4 className={`font-uk-reg-plates-bold-caps text-center text-4xl text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-yellow-300`}>New Car Tyres</h4>
-                                <p className={`font-uk-reg-plates-bold-caps text-center lg:text-xl text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-yellow-300`}>Advanced New Car Tyres: Unmatched Performanc</p>
-                                <p className={`text-white lg:text-lg font-uk-reg-plates-regular`}>
+                                <h4 className={`font-uk-reg-plates text-center text-4xl text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-yellow-300`}>New Car Tyres</h4>
+                                <p className={`font-uk-reg-plates text-center lg:text-xl text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-yellow-300`}>Advanced New Car Tyres: Unmatched Performanc</p>
+                                <p className={`text-white lg:text-lg font-uk-reg-plates`}>
                                     Elevate your driving experience in {serviceLocationIn.serviceLocationName} with our premium range of new car tyres. Specially curated to enhance vehicle performance and safety, our new tyres offer the latest in
                                     tyre technology and innovation. From improved grip and stability to reduced noise and fuel consumption, our selection caters to all driving styles and conditions. Our expert team will guide you through the best
                                     options for your vehicle, ensuring optimal performance and longevity on the road.
@@ -147,9 +147,9 @@ export default function Tyreservicesinlocationurl({ tyreServicesInLocationUrl, s
                             </div>
 
                             <div className={`grid gap-4 bg-gradient-radial from-black to-gray-700 p-4 rounded-xl`}>
-                                <h4 className={`font-uk-reg-plates-bold-caps text-center text-4xl text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-yellow-300`}>Part Worn Tyres</h4>
-                                <p className={`font-uk-reg-plates-bold-caps text-center lg:text-xl text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-yellow-300`}>Eco-Friendly Part Worn Tyres: Affordable Quality</p>
-                                <p className={`text-white lg:text-lg font-uk-reg-plates-regular`}>
+                                <h4 className={`font-uk-reg-plates text-center text-4xl text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-yellow-300`}>Part Worn Tyres</h4>
+                                <p className={`font-uk-reg-plates text-center lg:text-xl text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-yellow-300`}>Eco-Friendly Part Worn Tyres: Affordable Quality</p>
+                                <p className={`text-white lg:text-lg font-uk-reg-plates`}>
                                     In {serviceLocationIn.serviceLocationName}, our part worn tyres offer an economical yet reliable alternative. Each tyre is rigorously tested for safety and performance, ensuring you receive the highest quality at a
                                     fraction of the cost. Ideal for budget-conscious drivers who do not compromise on safety, our part worn tyres are a sustainable choice, reducing waste and environmental impact. Trust our specialists to help you
                                     find the perfect match for your vehicle, balancing cost and quality effortlessly.
@@ -177,7 +177,7 @@ export default function Tyreservicesinlocationurl({ tyreServicesInLocationUrl, s
                                 <div className="bg-gradient-radial from-24h-yellow/80 to-24h-yellow shadow-lg w-full p-4 rounded-xl grid gap-4">
                                     <div className={`font-uk-reg-plates uppercase`}>#Rim Fitting</div>
                                     <h4 className={`kdev-h5`}>Precision Rim Fitting for Enhanced Vehicle Aesthetics</h4>
-                                    <p className={`font-uk-reg-plates-regular`}>
+                                    <p className={`font-uk-reg-plates`}>
                                         Transform your {`vehicle's`} look with our precision rim fitting service. We offer a wide range of stylish and durable rims, expertly fitted to enhance both the appearance and performance of your car.
                                     </p>
                                     <Link className={`kdev-button-cta-black-yellow`} href={`/tyres/services/wheel-services/rim-fitting`}>
@@ -187,7 +187,7 @@ export default function Tyreservicesinlocationurl({ tyreServicesInLocationUrl, s
                                 <div className="bg-gradient-radial from-24h-yellow/80 to-24h-yellow shadow-lg w-full p-4 rounded-xl grid gap-4">
                                     <div className={`font-uk-reg-plates uppercase`}>#Puncture Repair</div>
                                     <h4 className={`kdev-h5`}>Quick and Efficient Puncture Repair Services</h4>
-                                    <p className={`font-uk-reg-plates-regular`}>
+                                    <p className={`font-uk-reg-plates`}>
                                         Get back on the road swiftly with our puncture repair services. Our expert team provides fast and reliable repairs, ensuring your safety and minimizing downtime with top-notch workmanship.
                                     </p>
                                     <Link className={`kdev-button-cta-black-yellow`} href={`/tyres/services/wheel-services/puncture-repair`}>
@@ -197,7 +197,7 @@ export default function Tyreservicesinlocationurl({ tyreServicesInLocationUrl, s
                                 <div className="bg-gradient-radial from-24h-yellow/80 to-24h-yellow shadow-lg w-full p-4 rounded-xl grid gap-4">
                                     <div className={`font-uk-reg-plates uppercase`}>#Wheel Balancing</div>
                                     <h4 className={`kdev-h5`}>Expert Wheel Balancing for Smooth Driving</h4>
-                                    <p className={`font-uk-reg-plates-regular`}>
+                                    <p className={`font-uk-reg-plates`}>
                                         Ensure a smooth and vibration-free drive with our professional wheel balancing services. Properly balanced wheels improve tyre life, enhance fuel efficiency, and provide a safer, more comfortable ride.
                                     </p>
                                     <Link className={`kdev-button-cta-black-yellow`} href={`/tyres/services/wheel-services/wheel-balancing`}>
@@ -207,7 +207,7 @@ export default function Tyreservicesinlocationurl({ tyreServicesInLocationUrl, s
                                 <div className="bg-gradient-radial from-24h-yellow/80 to-24h-yellow shadow-lg w-full p-4 rounded-xl grid gap-4">
                                     <div className={`font-uk-reg-plates uppercase`}>#Valve Servicing</div>
                                     <h4 className={`kdev-h5`}>Comprehensive Valve Servicing for Optimal Tyre Health</h4>
-                                    <p className={`font-uk-reg-plates-regular`}>
+                                    <p className={`font-uk-reg-plates`}>
                                         Prolong the life of your tyres with our thorough valve servicing. Regular valve maintenance prevents air leaks, maintains tyre pressure, and enhances overall tyre performance for a more reliable driving
                                         experience.
                                     </p>
@@ -248,8 +248,8 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
     await delay(2200);
 
-    const paths = serviceLocations.map(({ serviceLocationSlug }: any) => {
-    // const paths = [{ serviceLocationSlug: "isleworth" }].map(({ serviceLocationSlug }: any) => {
+    // const paths = serviceLocations.map(({ serviceLocationSlug }: any) => {
+    const paths = [{ serviceLocationSlug: "isleworth" }].map(({ serviceLocationSlug }: any) => {
         return {
             params: {
                 tyreservicesinlocationurl: `tyre-services-in-${serviceLocationSlug.toLowerCase()}`,

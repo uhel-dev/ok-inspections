@@ -26,7 +26,7 @@ export default function HowToBookAnAppointment() {
         "description": "Booking your tyre service with 24h Tyres is easy. Follow our simple step-by-step guide and schedule your appointment today.",
         "url": "https://www.24h-tyres.co.uk/how-to-book-an-appointment",
         "image": "https://www.24h-tyres.co.uk/how-to-book-an-appointment.png",
-        "logo": "https://www.24h-tyres.co.uk/logo/black-background-logo-charles.png",
+        "logo": "https://www.24h-tyres.co.uk/logo/ok-logo.png",
         "areaServed": {
             "@type": "Country",
             "name": "UK"
@@ -52,7 +52,7 @@ export default function HowToBookAnAppointment() {
             "@type": "Organization",
             "name": "24h Tyres",
             "url": "https://www.24h-tyres.co.uk",
-            "logo": "https://www.24h-tyres.co.uk/logo/black-background-logo-charles.png",
+            "logo": "https://www.24h-tyres.co.uk/logo/ok-logo.png",
             "contactPoint": {
                 "@type": "ContactPoint",
                 "telephone": "0208 0792 350",

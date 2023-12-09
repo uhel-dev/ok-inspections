@@ -19,13 +19,6 @@ module.exports = {
     extend: {
       fontFamily: {
         'uk-reg-plates': ['UKRegPlatesFont', 'sans-serif'],
-        'uk-reg-plates-bold': ['UKRegPlatesFont', 'sans-serif'],
-        'uk-reg-plates-bold-caps': ['UKRegPlatesFontBoldCaps', 'sans-serif'],
-        'uk-reg-plates-italic': ['UKRegPlatesFontOblique', 'sans-serif'],
-        'uk-reg-plates-regular': ['UKRegPlatesFontRegular', 'sans-serif'],
-        'uk-reg-plates-medium': ['UKRegPlatesFontMedium', 'sans-serif'],
-        'uk-reg-plates-motorcycle': ['UKRegPlatesFontMotorcycle', 'sans-serif'],
-        'uk-reg-anton': ['AntonFont', 'sans-serif']
       },
       colors: {
         ...colors,

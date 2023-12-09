@@ -12,7 +12,7 @@ const jsonLD = {
     description: "Find the perfect tyres for mobile fitting with four search options at 24h Tyres: by brand, make, registration, or size. Experience convenient and personalized service.",
     url: "https://www.24h-tyres.co.uk/find",
     image: "https://24h-tyres.co.uk/search-tyres-by.jpg",
-    logo: "https://www.24h-tyres.co.uk/logo/black-background-logo-charles.png",
+    logo: "https://www.24h-tyres.co.uk/logo/ok-logo.png",
     areaServed: {
         "@type": "Country",
         name: "UK",
@@ -30,7 +30,7 @@ const jsonLD = {
         "@type": "Organization",
         name: "24h Tyres",
         url: "https://www.24h-tyres.co.uk",
-        logo: "https://www.24h-tyres.co.uk/logo/black-background-logo-charles.png",
+        logo: "https://www.24h-tyres.co.uk/logo/ok-logo.png",
         contactPoint: {
             "@type": "ContactPoint",
             telephone: "0208 0792 350",
@@ -97,7 +97,7 @@ export default function Find() {
                 <h3 className={`kdev-h3`}>Finding Tyres by Brand</h3>
                 <p className={`kdev-text`}>At 24h Tyres, we understand the significance of brand reputation. We offer a wide selection of top-tier tyre brands known for their quality and durability. Brands like Michelin, Bridgestone, and Goodyear are among our offerings. Choosing tyres from trusted brands not only enhances your {`vehicle's`} performance but also guarantees reliability and peace of mind.</p>
                 <div className={`pt-4`}>
-                  <Link href={`/tyres/find/by-brand`} className={`p-4 bg-black text-white font-uk-reg-plates-bold-caps hover:bg-24h-yellow hover:text-black`}>Search by tyre brand</Link>
+                  <Link href={`/tyres/find/by-brand`} className={`p-4 bg-black text-white font-uk-reg-plates hover:bg-24h-yellow hover:text-black`}>Search by tyre brand</Link>
                 </div>
               </div>
             </div>
@@ -142,7 +142,7 @@ export default function Find() {
                 <h3 className={`kdev-h3`}>Finding Tyres by Car Make</h3>
                 <p className={`kdev-text`}>Finding the perfect tyres for your car make and model has never been simpler. Our intuitive search options allow you to select your {`vehicle's`} make and model, ensuring that you get tyres specifically designed for your car. This tailored approach optimizes your {`vehicle's`} performance, handling, and safety.</p>
                 <div className={`pt-4`}>
-                  <Link href={`/tyres/find/by-make`} className={`p-4 bg-24h-yellow text-black font-uk-reg-plates-bold-caps hover:bg-24h-yellow hover:text-black`}>Search by car make</Link>
+                  <Link href={`/tyres/find/by-make`} className={`p-4 bg-24h-yellow text-black font-uk-reg-plates hover:bg-24h-yellow hover:text-black`}>Search by car make</Link>
                 </div>
               </div>
             </div>
@@ -158,7 +158,7 @@ export default function Find() {
                 <h3 className={`kdev-h3`}>Finding Tyres by Registration</h3>
                 <p className={`kdev-text`}>{`We've`} simplified the tyre selection process by allowing you to search for tyres using your {`vehicle's`} registration number. Just enter your registration details, and our system will match your vehicle with the appropriate tyre options. {`It's`} a quick and accurate way to ensure that the tyres you choose are a perfect fit for your vehicle.</p>
                 <div className={`pt-4`}>
-                  <Link href={`/tyres/find/by-registration`} className={`p-4 bg-black text-white font-uk-reg-plates-bold-caps hover:bg-24h-yellow hover:text-black`}>Search by registration</Link>
+                  <Link href={`/tyres/find/by-registration`} className={`p-4 bg-black text-white font-uk-reg-plates hover:bg-24h-yellow hover:text-black`}>Search by registration</Link>
                 </div>
               </div>
             </div>
@@ -204,7 +204,7 @@ export default function Find() {
                 <h3 className={`kdev-h3`}>Finding Tyres by Tyre Size</h3>
                 <p className={`kdev-text`}>Understanding your tyre size is essential for a precise fit. Our comprehensive guide on how to find your tyre size and the importance of correct sizing ensures that you select the right tyres for your vehicle. A properly sized tyre not only improves safety but also contributes to fuel efficiency and overall driving comfort.</p>
                 <div className={`pt-4`}>
-                  <Link href={`/tyres/find/by-size`} className={`p-4 bg-24h-yellow text-black font-uk-reg-plates-bold-caps hover:bg-24h-yellow hover:text-black`}>Search by tyre size</Link>
+                  <Link href={`/tyres/find/by-size`} className={`p-4 bg-24h-yellow text-black font-uk-reg-plates hover:bg-24h-yellow hover:text-black`}>Search by tyre size</Link>
                 </div>
               </div>
             </div>
@@ -215,7 +215,7 @@ export default function Find() {
         <section className="bg-24h-yellow py-8 text-black">
           <div className="text-center container mx-auto px-4">
             <h2 className="text-3xl font-uk-reg-plates">Lifetime Guarantee on All Tyres</h2>
-            <p className="mb-4 font-uk-reg-plates-regular">
+            <p className="mb-4 font-uk-reg-plates">
               Drive with confidence thanks to our lifetime guarantee on all car and van tyres. No additional costs, just the reassurance you need.
             </p>
             <div className={`hidden lg:block pt-2`}>

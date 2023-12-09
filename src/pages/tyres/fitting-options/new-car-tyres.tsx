@@ -70,7 +70,7 @@ const jsonLD = {
     description: "Enhance your ride with branded tyres from 24h Tyres. Select from a diverse range of brands and models for the perfect fit.",
     url: "https://www.24h-tyres.co.uk/tyres/fitting-options/new-car-tyres",
     image: "https://24h-tyres.co.uk/tyres/services/services-new-tyres.png",
-    logo: "https://www.24h-tyres.co.uk/logo/black-background-logo-charles.png",
+    logo: "https://www.24h-tyres.co.uk/logo/ok-logo.png",
     areaServed: {
         "@type": "Country",
         name: "UK",
@@ -88,7 +88,7 @@ const jsonLD = {
         "@type": "Organization",
         name: "24h Tyres",
         url: "https://www.24h-tyres.co.uk",
-        logo: "https://www.24h-tyres.co.uk/logo/black-background-logo-charles.png",
+        logo: "https://www.24h-tyres.co.uk/logo/ok-logo.png",
         contactPoint: {
             "@type": "ContactPoint",
             telephone: "0208 0792 350",

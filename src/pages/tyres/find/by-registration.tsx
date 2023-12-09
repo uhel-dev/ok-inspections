@@ -18,7 +18,7 @@ export default function SearchByRegNumber() {
         description: "Instantly find the right tyres for your vehicle with just its registration number. Quick, reliable tyre selection at 24h Tyres.",
         url: "https://www.24h-tyres.co.uk/find/by-registration",
         image: "https://24h-tyres.co.uk/search-tyres-by-registration.jpg",
-        logo: "https://www.24h-tyres.co.uk/logo/black-background-logo-charles.png",
+        logo: "https://www.24h-tyres.co.uk/logo/ok-logo.png",
         areaServed: {
             "@type": "Country",
             name: "UK",
@@ -36,7 +36,7 @@ export default function SearchByRegNumber() {
             "@type": "Organization",
             name: "24h Tyres",
             url: "https://www.24h-tyres.co.uk",
-            logo: "https://www.24h-tyres.co.uk/logo/black-background-logo-charles.png",
+            logo: "https://www.24h-tyres.co.uk/logo/ok-logo.png",
             contactPoint: {
                 "@type": "ContactPoint",
                 telephone: "0208 0792 350",

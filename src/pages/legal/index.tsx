@@ -19,7 +19,7 @@ const Legal = () => {
                 <div className="w-full flex items-center justify-center">
                     <div className="w-full py-4 flex flex-col gap-2">
                         <h1 className={`kdev-h1`}>Legal Information</h1>
-                        <p className={`text-lg font-uk-reg-plates-regular`}>Welcome to our Legal Information page. Here you can find important documents that govern our relationship with our users.</p>
+                        <p className={`text-lg font-uk-reg-plates`}>Welcome to our Legal Information page. Here you can find important documents that govern our relationship with our users.</p>
                     </div>
                 </div>
             </section>
@@ -35,7 +35,7 @@ const Legal = () => {
                                     our offerings. Choosing tyres from trusted brands not only enhances your {`vehicle's`} performance but also guarantees reliability and peace of mind.
                                 </p>
                                 <div className={`pt-4`}>
-                                    <Link href={`/legal/privacy-policy`} className={`p-4 bg-black text-white font-uk-reg-plates-bold-caps hover:bg-24h-yellow hover:text-black`}>
+                                    <Link href={`/legal/privacy-policy`} className={`p-4 bg-black text-white font-uk-reg-plates hover:bg-24h-yellow hover:text-black`}>
                                         View Privacy Policy
                                     </Link>
                                 </div>
@@ -49,7 +49,7 @@ const Legal = () => {
                                     our offerings. Choosing tyres from trusted brands not only enhances your {`vehicle's`} performance but also guarantees reliability and peace of mind.
                                 </p>
                                 <div className={`pt-4`}>
-                                    <Link href={`/legal/cookies-policy`} className={`p-4 bg-black text-white font-uk-reg-plates-bold-caps hover:bg-24h-yellow hover:text-black`}>
+                                    <Link href={`/legal/cookies-policy`} className={`p-4 bg-black text-white font-uk-reg-plates hover:bg-24h-yellow hover:text-black`}>
                                         View Cookies Policy
                                     </Link>
                                 </div>
@@ -65,7 +65,7 @@ const Legal = () => {
                                     our offerings. Choosing tyres from trusted brands not only enhances your {`vehicle's`} performance but also guarantees reliability and peace of mind.
                                 </p>
                                 <div className={`pt-4`}>
-                                    <Link href={`/legal/terms-and-conditions`} className={`p-4 bg-black text-white font-uk-reg-plates-bold-caps hover:bg-24h-yellow hover:text-black`}>
+                                    <Link href={`/legal/terms-and-conditions`} className={`p-4 bg-black text-white font-uk-reg-plates hover:bg-24h-yellow hover:text-black`}>
                                         View Terms & Conditions
                                     </Link>
                                 </div>
@@ -77,7 +77,7 @@ const Legal = () => {
                                     <QuestionMarkCircleIcon className={`w-12 h-12`} />
                                     <h5 className={`kdev-h3`}>Questions?</h5>
                                     <p className={`kdev-text text-center`}>Feel free to reach out if you have any questions</p>
-                                    <Link className={`font-uk-reg-plates-bold-caps rounded-xl border-2 border-slate-400/10 p-4 hover:bg-orange-600 hover:text-black`} href={`/contact-us`}>
+                                    <Link className={`font-uk-reg-plates rounded-xl border-2 border-slate-400/10 p-4 hover:bg-orange-600 hover:text-black`} href={`/contact-us`}>
                                         Get in Touch
                                     </Link>
                                 </div>

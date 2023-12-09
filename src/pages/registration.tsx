@@ -104,19 +104,19 @@ const Registration: React.FC<RegistrationProps> = () => {
         { isMounted && (
           <>
             <section className={`w-full flex bg-black justify-center py-2 border-t-2 border-white`}>
-              <div className={`flex text-black font-uk-reg-plates-regular justify-center gap-8 w-4/5`}>
+              <div className={`flex text-black font-uk-reg-plates justify-center gap-8 w-4/5`}>
                 <Link href={`/postcode`}>
-                  <div className={`kb bg-white font-uk-reg-plates-bold-caps`}>
+                  <div className={`kb bg-white font-uk-reg-plates`}>
                     <div className={``}>Change Postcode</div>
                   </div>
                 </Link>
                 <Link href={`/registration`}>
                   <div className={`kb bg-24h-yellow after:bg-24h-yellow before:bg-24h-yellow`}>
-                    <div className={`bg-24h-yellow font-uk-reg-plates-bold-caps`}>Your Vehicle</div>
+                    <div className={`bg-24h-yellow font-uk-reg-plates`}>Your Vehicle</div>
                   </div>
                 </Link>
                 <Link href={`/choose-tyre-size`}>
-                  <div className={`kb bg-white font-uk-reg-plates-bold-caps`}>
+                  <div className={`kb bg-white font-uk-reg-plates`}>
                     <div>Confirm Tyre Size</div>
                   </div>
                 </Link>
@@ -144,7 +144,7 @@ const Registration: React.FC<RegistrationProps> = () => {
                         maxLength={7}
                         value={registration}
                         onChange={(e) => handleRegistrationChange(e)}
-                        className="disabled:opacity-25 h-[48px] flex-1 p-2 border-2 border-blue-600 rounded-r-md focus:outline-none font-uk-reg-plates-bold-caps"
+                        className="disabled:opacity-25 h-[48px] flex-1 p-2 border-2 border-blue-600 rounded-r-md focus:outline-none font-uk-reg-plates"
                       />
                       <span className="flex items-center h-[48px] text-white p-2 absolute right-0">
                     <button aria-label={`remove saved postcode`} onClick={handleClearRegistration} className={`font-uk-reg-plates`}>
@@ -153,7 +153,7 @@ const Registration: React.FC<RegistrationProps> = () => {
                 </span>
                     </label>
                     <button aria-label={`continue search with postcode`} disabled={!isRegistrationValid} onClick={handleContinueButtonClick}
-                            className="font-uk-reg-plates-bold-caps disabled:opacity-25 bg-orange-500 text-white p-2 rounded-md hover:bg-orange-600">
+                            className="font-uk-reg-plates disabled:opacity-25 bg-orange-500 text-white p-2 rounded-md hover:bg-orange-600">
                       Continue
                     </button>
                   </div>
@@ -165,7 +165,7 @@ const Registration: React.FC<RegistrationProps> = () => {
                   <div className="border-b-2 border-gray-300 mb-6"></div>
 
                   {/* Reasons with Icons */}
-                  <div className="flex flex-col lg:flex-row justify-around font-uk-reg-plates-regular gap-8 lg:gap-0">
+                  <div className="flex flex-col lg:flex-row justify-around font-uk-reg-plates gap-8 lg:gap-0">
                     {/* Reason 1 */}
                     <div className="flex flex-col items-center">
                       <div className="mb-2">

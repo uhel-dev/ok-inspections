@@ -12,7 +12,7 @@ export default function AnnouncementBar({headerWidth, scrollPosition}: any) {
           <div className="flex justify-center items-center px-4 md:pl-4 xl:gap-2">
             <Image src="/live-support-agent.png" width={48} height={48} alt="Picture of our live support agent"
                    className={`hidden lg:block`} />
-            <div className={`text-white text-md lg:text-xl font-uk-reg-plates-bold-caps`}>
+            <div className={`text-white text-md lg:text-xl font-uk-reg-plates`}>
               <Link className={`hover:text-orange-600`} href={CTA_PHONE_NUMBER}>
                 02080792350
               </Link>

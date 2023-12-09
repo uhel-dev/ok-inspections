@@ -24,7 +24,7 @@ const NavbarSearchTypeaheadInput = ({ suggestionsIn, isLoaded, placeholder, path
         <div>
           <input
             placeholder={placeholder}
-            className={`p-2 placeholder-black text-black font-uk-reg-plates-bold-caps w-full bg-24h-yellow text-sm xl:text-base`}
+            className={`p-2 placeholder-black text-black font-uk-reg-plates w-full bg-24h-yellow text-sm xl:text-base`}
             type="text"
             id={`navbar-search-by-car`}
             value={inputValue}

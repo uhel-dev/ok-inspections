@@ -12,7 +12,7 @@ export default function Cars() {
         description: "Select the perfect tyres for your car make. Explore our vast range of options, tailored for all car makes and models at 24h Tyres.",
         url: "https://www.24h-tyres.co.uk/find/by-make",
         image: "https://24h-tyres.co.uk/search-tyres-by-make.jpg",
-        logo: "https://www.24h-tyres.co.uk/logo/black-background-logo-charles.png",
+        logo: "https://www.24h-tyres.co.uk/logo/ok-logo.png",
         areaServed: {
             "@type": "Country",
             name: "UK",
@@ -30,7 +30,7 @@ export default function Cars() {
             "@type": "Organization",
             name: "24h Tyres",
             url: "https://www.24h-tyres.co.uk",
-            logo: "https://www.24h-tyres.co.uk/logo/black-background-logo-charles.png",
+            logo: "https://www.24h-tyres.co.uk/logo/ok-logo.png",
             contactPoint: {
                 "@type": "ContactPoint",
                 telephone: "0208 0792 350",

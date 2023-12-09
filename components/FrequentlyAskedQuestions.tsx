@@ -75,7 +75,7 @@ export default function FrequentlyAskedQuestion({ title, questions }: Frequently
                 </div>
               </button>
               <div className={` ${isActive ? 'flex' : 'hidden'} `}>
-                <p className={`text-left text-base lg:text-lg font-uk-reg-plates-regular`}>{answer}</p>
+                <p className={`text-left text-base lg:text-lg font-uk-reg-plates`}>{answer}</p>
               </div>
             </div>
           );

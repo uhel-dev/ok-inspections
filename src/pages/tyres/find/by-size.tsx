@@ -29,7 +29,7 @@ export default function BySize() {
         image: "https://24h-tyres.co.uk/search-tyres-by-size.jpg",
         description: "Locate the perfect tyres for your vehicle by size. 24h Tyres offers an extensive selection of sizes to fit any vehicle, ensuring optimal performance and safety.",
         url: "https://www.24h-tyres.co.uk/find/by-size",
-        logo: "https://www.24h-tyres.co.uk/logo/black-background-logo-charles.png",
+        logo: "https://www.24h-tyres.co.uk/logo/ok-logo.png",
         areaServed: {
             "@type": "Country",
             name: "UK",
@@ -47,7 +47,7 @@ export default function BySize() {
             "@type": "Organization",
             name: "24h Tyres",
             url: "https://www.24h-tyres.co.uk",
-            logo: "https://www.24h-tyres.co.uk/logo/black-background-logo-charles.png",
+            logo: "https://www.24h-tyres.co.uk/logo/ok-logo.png",
             contactPoint: {
                 "@type": "ContactPoint",
                 telephone: "0208 0792 350",

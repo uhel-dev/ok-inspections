@@ -12,7 +12,7 @@ export default function Brands() {
         description: "Effortlessly find and compare tyres by brand for your vehicle. Choose from premium to budget options for mobile fitting with 24h Tyres.",
         url: "https://www.24h-tyres.co.uk/find/by-brand",
         image: "https://24h-tyres.co.uk/search-tyres-by-brand.jpg",
-        logo: "https://www.24h-tyres.co.uk/logo/black-background-logo-charles.png",
+        logo: "https://www.24h-tyres.co.uk/logo/ok-logo.png",
         areaServed: {
             "@type": "Country",
             name: "UK",
@@ -30,7 +30,7 @@ export default function Brands() {
             "@type": "Organization",
             name: "24h Tyres",
             url: "https://www.24h-tyres.co.uk",
-            logo: "https://www.24h-tyres.co.uk/logo/black-background-logo-charles.png",
+            logo: "https://www.24h-tyres.co.uk/logo/ok-logo.png",
             contactPoint: {
                 "@type": "ContactPoint",
                 telephone: "0208 0792 350",

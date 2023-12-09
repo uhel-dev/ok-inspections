@@ -65,7 +65,7 @@ const jsonLD = {
     description: "Seeking affordable tyre options? Discover our range of part-worn tyres at 24h Tyres for cost-effective solutions to your needs.",
     url: "https://www.24h-tyres.co.uk/tyres/fitting-options/part-worn-tyres",
     image: "https://24h-tyres.co.uk/tyres/services/services-used-tyres-part-worn-tyres.png",
-    logo: "https://www.24h-tyres.co.uk/logo/black-background-logo-charles.png",
+    logo: "https://www.24h-tyres.co.uk/logo/ok-logo.png",
     areaServed: {
         "@type": "Country",
         name: "UK",
@@ -83,7 +83,7 @@ const jsonLD = {
         "@type": "Organization",
         name: "24h Tyres",
         url: "https://www.24h-tyres.co.uk",
-        logo: "https://www.24h-tyres.co.uk/logo/black-background-logo-charles.png",
+        logo: "https://www.24h-tyres.co.uk/logo/ok-logo.png",
         contactPoint: {
             "@type": "ContactPoint",
             telephone: "0208 0792 350",

@@ -29,7 +29,7 @@ export default function Brands() {
     "description": "Explore a wide variety of quality tyre brands at 24h Tyres. We stock leading brands to ensure you find the perfect tyre for your vehicle.",
     "url": "https://www.24h-tyres.co.uk/tyres/brands",
     "image": "https://24h-tyres.co.uk/all-tyre-brands.jpg",
-    "logo": "https://www.24h-tyres.co.uk/logo/black-background-logo-charles.png",
+    "logo": "https://www.24h-tyres.co.uk/logo/ok-logo.png",
     "areaServed": {
       "@type": "Country",
       "name": "UK"
@@ -55,7 +55,7 @@ export default function Brands() {
       "@type": "Organization",
       "name": "24h Tyres",
       "url": "https://www.24h-tyres.co.uk",
-      "logo": "https://www.24h-tyres.co.uk/logo/black-background-logo-charles.png",
+      "logo": "https://www.24h-tyres.co.uk/logo/ok-logo.png",
       "contactPoint": {
         "@type": "ContactPoint",
         "telephone": "0208 0792 350",

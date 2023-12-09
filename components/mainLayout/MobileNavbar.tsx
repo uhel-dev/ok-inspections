@@ -43,7 +43,7 @@ export default function MobileNavbar({headerWidth}: any) {
               </div>
               <div className="relative block text-xl text-teal-600 font-bold flex justify-center items-center">
                 <Link className={''} href={'/'}>
-                  <Image src="/logo/black-background-logo-charles.png"
+                  <Image src="/logo/ok-logo.png"
                          width={140}
                          height={140}
                          alt="Picture of our logo"

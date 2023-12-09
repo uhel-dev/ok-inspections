@@ -85,7 +85,7 @@ const MobileNavbarMegaMenu = ({handleToggleMobileMenu, isMenuOpen}: MobileNavbar
 
                 <div className={`flex justify-between`}>
                     <div className={`flex justify-center p-4`}>
-                        <Image className={``} src={`/logo/black-background-logo-charles.png`} width={180} height={180} alt={`Logo of 24h Tyres`}></Image>
+                        <Image className={``} src={`/logo/ok-logo.png`} width={180} height={180} alt={`Logo of 24h Tyres`}></Image>
                     </div>
                     <div className="flex justify-end p-4">
                         <button aria-label={`toggle menu`} onClick={handleToggleMobileMenu}>
@@ -117,7 +117,7 @@ const MobileNavbarMegaMenu = ({handleToggleMobileMenu, isMenuOpen}: MobileNavbar
                                 <div className={`font-semibold text-xl /80`}>
                                     Schedule an appointment
                                 </div>
-                                <Link href={CTA_PHONE_NUMBER} className={` bg-24h-yellow p-4 text-lg uppercase text-black font-uk-reg-plates-bold-caps`}>
+                                <Link href={CTA_PHONE_NUMBER} className={` bg-24h-yellow p-4 text-lg uppercase text-black font-uk-reg-plates`}>
                                     Call Now
                                 </Link>
                             </div>

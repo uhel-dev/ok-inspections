@@ -20,7 +20,7 @@ export default function MediumCostTyresGrid() {
                     <div className={`p-4 lg:p-8 flex flex-col`}>
                         <div className={``}>
                             <div className={`flex gap-2 items-center`}>
-                                <Image src={`/24h-tyres-favicon.png`} width={32} height={32} alt={`24h Tyres - Small Favicon Image Showcasing Our Mobile Tyre Services Offer`}></Image>
+                                <Image src={`/ok-favicon.png`} width={32} height={32} alt={`24h Tyres - Small Favicon Image Showcasing Our Mobile Tyre Services Offer`}></Image>
                                 <span className={`font-uk-reg-plates`}>24h-tyres.co.uk</span>
                             </div>
                             <p className={`text-4xl font-uk-reg-plates`}>Falken Tyres</p>
@@ -38,7 +38,7 @@ export default function MediumCostTyresGrid() {
                     <div className={`p-4 lg:p-8 flex flex-col`}>
                         <div className={``}>
                             <div className={`flex gap-2 items-center`}>
-                                <Image src={`/24h-tyres-favicon.png`} width={32} height={32} alt={`24h Tyres - Small Favicon Image Showcasing Our Mobile Tyre Services Offer`}></Image>
+                                <Image src={`/ok-favicon.png`} width={32} height={32} alt={`24h Tyres - Small Favicon Image Showcasing Our Mobile Tyre Services Offer`}></Image>
                                 <span className={`font-uk-reg-plates`}>24h-tyres.co.uk</span>
                             </div>
                             <p className={`text-4xl font-uk-reg-plates`}>Fulda Tyres</p>
@@ -57,7 +57,7 @@ export default function MediumCostTyresGrid() {
                     <div className={`p-4 lg:p-8 flex flex-col`}>
                         <div className={``}>
                             <div className={`flex gap-2 items-center`}>
-                                <Image src={`/24h-tyres-favicon.png`} width={32} height={32} alt={`24h Tyres - Small Favicon Image Showcasing Our Mobile Tyre Services Offer`}></Image>
+                                <Image src={`/ok-favicon.png`} width={32} height={32} alt={`24h Tyres - Small Favicon Image Showcasing Our Mobile Tyre Services Offer`}></Image>
                                 <span className={`font-uk-reg-plates`}>24h-tyres.co.uk</span>
                             </div>
                             <p className={`text-4xl font-uk-reg-plates`}>BF Goodrich Tyres</p>
@@ -75,7 +75,7 @@ export default function MediumCostTyresGrid() {
                     <div className={`p-4 lg:p-8 flex flex-col`}>
                         <div className={``}>
                             <div className={`flex gap-2 items-center`}>
-                                <Image src={`/24h-tyres-favicon.png`} width={32} height={32} alt={`24h Tyres - Small Favicon Image Showcasing Our Mobile Tyre Services Offer`}></Image>
+                                <Image src={`/ok-favicon.png`} width={32} height={32} alt={`24h Tyres - Small Favicon Image Showcasing Our Mobile Tyre Services Offer`}></Image>
                                 <span className={`font-uk-reg-plates`}>24h-tyres.co.uk</span>
                             </div>
                             <p className={`text-4xl font-uk-reg-plates`}>Yokohama Tyres</p>

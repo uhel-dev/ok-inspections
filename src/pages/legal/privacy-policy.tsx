@@ -16,7 +16,7 @@ export default function PrivacyPolicy() {
     <>
       <PageLayout metadata={privacyPolicyMetadata}>
         <section className={`kdev-section`}>
-          <div className={`grid gap-2 font-uk-reg-plates-regular text-lg`}>
+          <div className={`grid gap-2 font-uk-reg-plates text-lg`}>
             <div className={`grid gap-4`}>
               <h1 className={`kdev-h1`}>Privacy Policy</h1>
               <p className={``}>This Privacy Policy describes how 24h-tyres.co.uk (the “Site” or “we”) collects, uses, and

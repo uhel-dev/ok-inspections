@@ -28,7 +28,7 @@ export default function CrosslinksModule({ locations, path }: any) {
           { !isTyreServiceLocation && locations.slice(0, visibleAmount).map(({location}: any) => (
             <Link key={location} href={`/locations/${location}`} className={`font-uk-reg-plates`}>
               <div className={`bg-gray-900 text-white p-4 rounded-2xl`} >
-                <Image src={`/24h-tyres-favicon.png`} width={32} height={32} alt={`24h Tyres - Small Favicon Image Showcasing Our Mobile Tyre Services Offer`}></Image>
+                <Image src={`/ok-favicon.png`} width={32} height={32} alt={`24h Tyres - Small Favicon Image Showcasing Our Mobile Tyre Services Offer`}></Image>
                 {location.replace("tyre-services-in-", "").substring(0, 1).toUpperCase() + location.replace("tyre-services-in-", "").substring(1)}
               </div>
             </Link>
@@ -36,7 +36,7 @@ export default function CrosslinksModule({ locations, path }: any) {
           { isTyreServiceLocation && locations.slice(0, visibleAmount).map(({tyreServicesInLocationUrl}: any) => (
             <Link key={tyreServicesInLocationUrl} href={`/tyres/${tyreServicesInLocationUrl}`} className={`font-uk-reg-plates`}>
               <div className={`bg-gray-900 text-white p-4 rounded-2xl`} >
-                <Image src={`/24h-tyres-favicon.png`} width={32} height={32} alt={`24h Tyres - Small Favicon Image Showcasing Our Mobile Tyre Services Offer`}></Image>
+                <Image src={`/ok-favicon.png`} width={32} height={32} alt={`24h Tyres - Small Favicon Image Showcasing Our Mobile Tyre Services Offer`}></Image>
                 {tyreServicesInLocationUrl.replace("tyre-services-in-", "").substring(0, 1).toUpperCase() + tyreServicesInLocationUrl.replace("tyre-services-in-", "").substring(1)}
               </div>
             </Link>

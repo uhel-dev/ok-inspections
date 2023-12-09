@@ -6,7 +6,7 @@ export default function CtaBanner({inText}: any) {
     return (
         <>
             <div className={`w-full flex items-center justify-center p-6 bg-orange-500 rounded-2xl`}>
-                <div className={`font-uk-reg-plates-bold-caps text-black text-xl lg:text-2xl`}>{text}</div>
+                <div className={`font-uk-reg-plates text-black text-xl lg:text-2xl`}>{text}</div>
             </div>
         </>
     )

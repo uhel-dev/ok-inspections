@@ -25,7 +25,7 @@ const AdviceQuestionGridBox = ({question, url}: any) => {
           <QuestionMarkCircleIcon className={`w-12 h-12`}/>
           <h5 className={`kdev-h3`}>Question</h5>
           <p className={`kdev-text text-center`}>{question}</p>
-          <Link className={`font-uk-reg-plates-bold-caps rounded-xl border-2 border-slate-400/10 p-4 hover:bg-orange-600 hover:text-black`} href={url}>Read More</Link>
+          <Link className={`font-uk-reg-plates rounded-xl border-2 border-slate-400/10 p-4 hover:bg-orange-600 hover:text-black`} href={url}>Read More</Link>
         </div>
       </div>
     </div>

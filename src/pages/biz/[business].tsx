@@ -105,7 +105,7 @@ export default function Business({ business }: BusinessProps) {
     <>
       <CustomHeader/>
       <section className={`kdev-section-no-margin`}>
-        <div className={`flex justify-center items-center text-white font-uk-reg-plates-regular`}>
+        <div className={`flex justify-center items-center text-white font-uk-reg-plates`}>
           <div className={`grid grid-cols-12 w-full`}>
             <div className={`col-span-2 bg-black py-8 px-4  rounded-l-xl`}>
               <div className={`grid gap-4 justify-center`}>
@@ -130,7 +130,7 @@ export default function Business({ business }: BusinessProps) {
                       )
                     })}
                     <div className={`ml-2 flex gap-2 items-center justify-center text-xl`}>
-                      <div className={`font-uk-reg-plates-bold-caps`}>{business.businessAverageRating.toFixed(1)}</div>
+                      <div className={`font-uk-reg-plates`}>{business.businessAverageRating.toFixed(1)}</div>
                       <div>({business.businessNumberOfReviews} Reviews)</div>
                       <div>|</div>
                       <Link href={`/`} className={`hover:text-orange-600`}>Write a review</Link>
@@ -165,7 +165,7 @@ export default function Business({ business }: BusinessProps) {
       </section>
       <section className={`kdev-section-no-margin`}>
         <div className={`flex justify-between bg-neutral-900 px-8 py-4 text-white rounded-xl divide-x-2`}>
-          <div className={`font-uk-reg-plates-bold-caps text-xl flex items-center`}>
+          <div className={`font-uk-reg-plates text-xl flex items-center`}>
             Why Choose Us?
           </div>
           <div className={`flex gap-32 pl-4`}>
@@ -182,7 +182,7 @@ export default function Business({ business }: BusinessProps) {
         </div>
       </section>
 
-      <section className={`kdev-section-no-margin text-white font-uk-reg-plates-regular`}>
+      <section className={`kdev-section-no-margin text-white font-uk-reg-plates`}>
         <div className={`grid grid-cols-3 gap-2`}>
           <div className={`col-span-1 row-span-1 bg-neutral-700 rounded-xl p-4`}>
             <ReviewBox businessAverageRating={business.businessAverageRating} businessNumberOfReviews={business.businessNumberOfReviews} reviews={business.businessReviews}/>
@@ -191,12 +191,12 @@ export default function Business({ business }: BusinessProps) {
             <RichText
               content={business.businessOverview.raw}
               renderers={{
-                h1: ({ children }) => <h1 className="text-4xl text-white font-uk-reg-plates-bold-caps mb-4">{children}</h1>,
+                h1: ({ children }) => <h1 className="text-4xl text-white font-uk-reg-plates mb-4">{children}</h1>,
                 h2: ({ children }) => <h2 className="text-3xl text-white font-uk-reg-plates mb-3">{children}</h2>,
                 h3: ({ children }) => <h3 className="text-2xl text-white font-uk-reg-plates mb-3">{children}</h3>,
                 h4: ({ children }) => <h4 className="text-xl text-white font-uk-reg-plates mb-3">{children}</h4>,
                 h5: ({ children }) => <h5 className="text-lg text-white font-uk-reg-plates mb-3">{children}</h5>,
-                p: ({ children }) => <p className="text-base mb-3 font-uk-reg-plates-regular">{children}</p>,
+                p: ({ children }) => <p className="text-base mb-3 font-uk-reg-plates">{children}</p>,
                 ul: ({ children }) => <ul className="list-disc pl-5 mb-3">{children}</ul>,
                 li: ({ children }) => <li className="mb-1 p-2">{children}</li>,
                 bold: ({ children }) => <strong className="font-bold">{children}</strong>,

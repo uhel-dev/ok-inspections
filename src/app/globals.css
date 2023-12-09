@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer utilities {
   .gradient-overlay::before {
     content: "";
@@ -14,77 +15,6 @@
     z-index: 90;
   }
 }
-
-@font-face {
-  font-family: 'UKRegPlatesFont';
-  src: url('/fonts/CharlesWright-Bold.woff2') format('woff2'),
-  url('/fonts/CharlesWright-Bold.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-  font-size: x-large;
-}
-
-@font-face {
-  font-family: 'UKRegPlatesFontOblique';
-  src: url('/fonts/CharlesWright-Oblique.woff2') format('woff2'),
-  url('/fonts/CharlesWright-Oblique.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-  font-size: x-large;
-}
-
-@font-face {
-  font-family: 'UKRegPlatesFontBoldCaps';
-  src: url('/fonts/CharlesWrightBoldCaps.woff2') format('woff2'),
-  url('/fonts/CharlesWrightBoldCaps.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-  font-size: x-large;
-}
-
-@font-face {
-  font-family: 'UKRegPlatesFontRegular';
-  src: url('/fonts/CharlesWright-Regular.woff2') format('woff2'),
-  url('/fonts/CharlesWright-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-  font-size: x-large;
-}
-
-@font-face {
-  font-family: 'UKRegPlatesFontMedium';
-  src: url('/fonts/CharlesWrightMedium.woff2') format('woff2'),
-  url('/fonts/CharlesWrightMedium.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-  font-size: x-large;
-}
-
-@font-face {
-  font-family: 'UKRegPlatesFontMotorcycle';
-  src: url('/fonts/CharlesWrightMotorcycle.woff2') format('woff2'),
-  url('/fonts/CharlesWrightMotorcycle.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-  font-size: x-large;
-}
-
-@font-face {
-  font-family: 'AntonFont';
-  src: url('/fonts/Anton-Regular.woff2') format('woff2'),
-  url('/fonts/Anton-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-  font-size: x-large;
-}
-
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -226,7 +156,7 @@ body {
 }
 
 .kdev-text {
-  @apply text-lg font-uk-reg-plates-regular
+  @apply text-lg font-uk-reg-plates
 }
 
 .text-outline {
@@ -283,7 +213,7 @@ body {
 
 
 .kb {
-  @apply text-black text-[0.7em] md:text-base lg:text-lg font-uk-reg-plates-bold-caps flex justify-center items-center relative z-10 p-2 h-[40px]
+  @apply text-black text-[0.7em] md:text-base lg:text-lg font-uk-reg-plates flex justify-center items-center relative z-10 p-2 h-[40px]
 }
 
 .kb > div {

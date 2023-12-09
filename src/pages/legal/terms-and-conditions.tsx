@@ -15,7 +15,7 @@ export default function TermsAndCondition() {
     <>
       <PageLayout metadata={termsAndConditionsMetadata}>
         <section className={`kdev-section`}>
-          <div className={`grid gap-2 font-uk-reg-plates-regular text-lg`}>
+          <div className={`grid gap-2 font-uk-reg-plates text-lg`}>
             <div className={`grid gap-4`}>
               <h1 className={`kdev-h1`}>Terms and Conditions</h1>
               <div className={`grid gap-2`}>

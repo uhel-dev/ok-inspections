@@ -46,7 +46,7 @@ export const ReviewBox = ({ businessAverageRating, businessNumberOfReviews, revi
             <StarIcon key={i} className={`w-6 h-6 text-24h-yellow`}/>
           )
         })}
-        <div className={`text-xl font-uk-reg-plates-bold-caps`}>{businessNumberOfReviews}</div>
+        <div className={`text-xl font-uk-reg-plates`}>{businessNumberOfReviews}</div>
       </div>
       <div>
         {
