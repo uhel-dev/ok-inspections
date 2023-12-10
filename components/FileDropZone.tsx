@@ -135,7 +135,7 @@ function FileDropZone() {
       <div
         onDragOver={handleDragOver}
         onDrop={handleDrop}
-        className="min-h-[320px] min-w-[480px] border-dashed border-2 border-gray-200 rounded-xl my-4 flex justify-center items-center p-"
+        className="lg:min-h-[320px] lg:min-w-[480px] border-dashed border-2 border-gray-200 rounded-xl my-4 flex justify-center items-center p-"
       >
         {!droppedFile && (
           <>Drag and drop a qr code image here</>

@@ -33,14 +33,14 @@ export default function EditItem() {
 
 
       <section className={`kdev-section`}>
-        <div>
-          <div className={`grid lg:grid-cols-6 gap-8`}>
+        <div className={`w-full`}>
+          <div className={`grid grid-cols-1 lg:grid-cols-6 gap-8`}>
 
-            <div className={`grid col-span-3 justify-center items-center border-2 border-black rounded-xl shadow-xl hover:shadow-2xl p-8`}>
+            <div className={`grid col-span-1 lg:col-span-3 justify-center items-center border-2 border-black rounded-xl shadow-xl hover:shadow-2xl py-4 lg:py-8`}>
               <QRDecoder/>
             </div>
 
-            <div className={`grid col-span-3 justify-center items-center border-2 border-black rounded-xl shadow-xl hover:shadow-2xl p-8`}>
+            <div className={`grid col-span-1 lg:col-span-3 justify-center items-center border-2 border-black rounded-xl shadow-xl hover:shadow-2xl py-4 lg:py-8`}>
               <div className={`flex flex-col`}>
                 <div className={`mb-4`}>
                   <label htmlFor="view-item-unique-identifier-input ">
@@ -48,7 +48,7 @@ export default function EditItem() {
                   </label>
                 </div>
                 <div className={`flex gap-2 justify-center items-center`}>
-                  <input value={uniqueIdentifier} onChange={handleUniqueIdentifierChange} name={`view-item-unique-identifier-input`} type={`text`} className={`border border-200 p-2 min-w-[360px]`}/>
+                  <input value={uniqueIdentifier} onChange={handleUniqueIdentifierChange} name={`view-item-unique-identifier-input`} type={`text`} className={`border border-200 p-2 lg:min-w-[360px]`}/>
                   <button onClick={navigateToItem} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                     View
                   </button>
@@ -58,7 +58,6 @@ export default function EditItem() {
           </div>
         </div>
       </section>
-
     </PageLayout>
   )
 }
