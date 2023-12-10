@@ -1,11 +1,11 @@
-import PageLayout from "../../../components/mainLayout/PageLayout";
+import PageLayout from "../../../../components/mainLayout/PageLayout";
 import React, { useState } from "react";
 import { useQRCode } from "next-qrcode";
 import { v4 as uuidv4 } from "uuid";
-import AddChecklistItems from "../../../components/add-items/AddChecklistItems";
-import AddDaysItems from "../../../components/add-items/AddDaysItems";
-import AddAdditionalInformationItem from "../../../components/add-items/AddAdditionalInformationItem";
-import hygraphClient from "../../../lib/hygraphClient.mjs";
+import AddChecklistItems from "../../../../components/add-items/AddChecklistItems";
+import AddDaysItems from "../../../../components/add-items/AddDaysItems";
+import AddAdditionalInformationItem from "../../../../components/add-items/AddAdditionalInformationItem";
+import hygraphClient from "../../../../lib/hygraphClient.mjs";
 import { gql } from "graphql-request";
 import { useRouter } from "next/router";
 
@@ -28,7 +28,7 @@ export interface Item {
   }
 }
 
-export default function CreateItem() {
+export default function Index() {
   const [qrValue, setQrValue] = useState('');
   const [qrUniqueId, setQrUniqueId] = useState('');
   const [bulletPoints, setBulletPoints] = useState('');
