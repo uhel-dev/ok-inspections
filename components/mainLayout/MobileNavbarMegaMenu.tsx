@@ -81,7 +81,7 @@ const MobileNavbarMegaMenu = ({handleToggleMobileMenu, isMenuOpen}: MobileNavbar
 
     return (
         <>
-            <div className={`xl:hidden 2xl:hidden fixed top-0 z-50 right-0 w-full h-full bg-black text-white shadow-xl transform duration-700  ease-in-out transition-transform ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} overflow-y-auto`}>
+            <div className={`xl:hidden 2xl:hidden fixed top-0 z-50 right-0 w-full h-full bg-white text-black shadow-xl transform duration-700  ease-in-out transition-transform ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} overflow-y-auto`}>
 
                 <div className={`flex justify-between`}>
                     <div className={`flex justify-center p-4`}>
@@ -100,28 +100,12 @@ const MobileNavbarMegaMenu = ({handleToggleMobileMenu, isMenuOpen}: MobileNavbar
                     <div className={`p-4 w-full flex flex-col gap-4`}>
                         <MobileNavbarMegaMenuItem title={`Home`}
                                                   slug={`/`}/>
-                        <MobileNavbarMegaMenuItem title={`Locations`}
-                                                  slug={`/locations`}/>
-                        <MobileNavbarMegaMenuItem title={`Mobile Tyre Fitting`}
-                                                  slug={`/mobile-tyre-fitting`}
-                                                  urls={mobileTyreFittingUrls} />
-                        <MobileNavbarMegaMenuItem title={`Tyres`}
-                                                  slug={`/tyres`}
-                                                  urls={tyresUrls}
-                                                  depth={2} />
-                        <MobileNavbarMegaMenuItem title={`More`}
-                                                  urls={moreUrls} />
-                        <MobileNavbarMegaMenuItem title={`Contact Us`} slug={`/contact-us`}/>
-                        <div className={`pt-4`}>
-                            <div className={`flex flex-col items-center gap-2`}>
-                                <div className={`font-semibold text-xl /80`}>
-                                    Schedule an appointment
-                                </div>
-                                <Link href={CTA_PHONE_NUMBER} className={` bg-24h-yellow p-4 text-lg uppercase text-black font-uk-reg-plates`}>
-                                    Call Now
-                                </Link>
-                            </div>
-                        </div>
+                        <MobileNavbarMegaMenuItem title={`Create Item`}
+                                                  slug={`/items/create-item`}/>
+                        <MobileNavbarMegaMenuItem title={`View Items`}
+                                                  slug={`/items/view-item`}/>
+                        <MobileNavbarMegaMenuItem title={`Edit Item`}
+                                                  slug={`/items/edit-item`}/>
                     </div>
                 </div>
             </div>

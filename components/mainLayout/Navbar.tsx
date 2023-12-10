@@ -1,16 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
 import "../../src/app/globals.css";
-import { HomeIcon, QuestionMarkCircleIcon } from "@heroicons/react/20/solid";
 import useLocations from "@/hooks/useLocations";
 import React, { useEffect, useState } from "react";
-import useCars from "@/hooks/useCars";
-import NavbarSearchTypeaheadInput from "../NavbarSearchTypeaheadInput";
 import useTyreBrands from "@/hooks/useTyreBrands";
-import { LightBulbIcon, PhoneArrowUpRightIcon } from "@heroicons/react/24/outline";
 import { validateRegPlates } from "@/types";
 import LocalStorageService from "@/services/LocalStorageService";
-import { CTA_PHONE_NUMBER } from "@/static/utils";
 
 const NavbarParentElement = ({ title, slug }: any) => {
     return (
@@ -41,7 +36,6 @@ const WorkIcon = () => {
 export const Navbar = ({ headerWidth }: any) => {
 
     const { locations, loadLocations, isLoadedLocations } = useLocations();
-    const { cars, loadCars, isLoadedCars } = useCars();
     const { tyreBrands, loadTyreBrands, isLoadedTyreBrands } = useTyreBrands();
     const [registrationValue, setRegistrationValue] = useState<string>('');
     const [isRegistrationValid, setIsRegistrationValid] = useState<boolean>(false);
@@ -65,10 +59,6 @@ export const Navbar = ({ headerWidth }: any) => {
     useEffect(() => {
         loadLocations();
     }, [loadLocations]);
-
-    useEffect(() => {
-        loadCars();
-    }, [loadCars]);
 
     useEffect(() => {
         loadTyreBrands();

@@ -49,7 +49,7 @@ export default function CreateItem() {
 
   const generateUniqueQRCode = () => {
     const uniqueID = uuidv4();
-    const baseUrl = "https://ok-inspections.co.uk/find/";
+    const baseUrl = "https://ok-inspections.co.uk/items/view-item/";
     const qrUrl = `${baseUrl}${uniqueID}`;
     setQrValue(qrUrl);
     setQrUniqueId(uniqueID)

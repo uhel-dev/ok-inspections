@@ -1,7 +1,7 @@
 import PageLayout from "../../../../components/mainLayout/PageLayout";
 import Link from "next/link";
 import Image from "next/image";
-import BarcodeDecoder from "../../../../components/BarcodeDecoder";
+import QRDecoder from "../../../../components/QRDecoder";
 import React from "react";
 import { useRouter } from "next/router";
 
@@ -25,7 +25,7 @@ export default function ViewItem() {
       <section className={`kdev-section`}>
         <div>
           <div>
-            <h1 className={`kdev-h1`}>View item by ID or Barcode</h1>
+            <h1 className={`kdev-h1`}>View item by ID or QR Code</h1>
           </div>
         </div>
       </section>
@@ -36,16 +36,10 @@ export default function ViewItem() {
           <div className={`grid lg:grid-cols-6 gap-8`}>
 
             <div className={`grid col-span-3 justify-center items-center border-2 border-black rounded-xl shadow-xl hover:shadow-2xl p-8`}>
-              {/*<div className={`flex justify-center items-center`}>*/}
-              {/*  <Image className={``} src={`/new/upload-barcode-v1.png`} alt={`view item`} width={240} height={240} />*/}
-              {/*</div>*/}
-              <BarcodeDecoder/>
+              <QRDecoder/>
             </div>
 
             <div className={`grid col-span-3 justify-center items-center border-2 border-black rounded-xl shadow-xl hover:shadow-2xl p-8`}>
-              {/*<div className={`flex justify-center items-center`}>*/}
-              {/*  <Image className={`p-8`} src={`/new/edit-item-v1.png`} alt={`create an item`} width={240} height={240} />*/}
-              {/*</div>*/}
               <div className={`flex flex-col`}>
                 <div className={`mb-4`}>
                   <label htmlFor="view-item-unique-identifier-input ">
